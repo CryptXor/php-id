@@ -2,13 +2,13 @@ program phpid;
 
 uses
   Vcl.Forms,
-  uMain in 'uMain.pas' {Form1};
+  uMain in 'uMain.pas' {phpID};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TphpID, phpID);
   Application.Run;
 end.

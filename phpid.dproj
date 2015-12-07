@@ -96,7 +96,7 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="uMain.pas">
-            <Form>Form1</Form>
+            <Form>phpID</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Release">

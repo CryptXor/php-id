@@ -1,8 +1,8 @@
-object phpID: TphpID
+object TphpID: TTphpID
   Left = 0
   Top = 0
   Caption = 'phpID'
-  ClientHeight = 456
+  ClientHeight = 410
   ClientWidth = 794
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -31,9 +31,9 @@ object phpID: TphpID
     TabOrder = 0
     Zoom = 100
   end
-  object Button1: TButton
+  object btnImportFIle: TButton
     Left = 8
-    Top = 423
+    Top = 378
     Width = 377
     Height = 25
     Caption = 'Import File'
@@ -43,13 +43,13 @@ object phpID: TphpID
     Left = 8
     Top = 351
     Width = 778
-    Height = 66
+    Height = 21
     TabOrder = 2
     Text = 'Result'
   end
-  object Button2: TButton
+  object btnProcessManual: TButton
     Left = 409
-    Top = 423
+    Top = 378
     Width = 377
     Height = 25
     Caption = 'Process Manual Input'

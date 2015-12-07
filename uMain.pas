@@ -7,11 +7,11 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls;
 
 type
-  TphpID = class(TForm)
+  TTphpID = class(TForm)
     rtbManualInput: TRichEdit;
-    Button1: TButton;
+    btnImportFIle: TButton;
     tbResult: TEdit;
-    Button2: TButton;
+    btnProcessManual: TButton;
     openFile: TOpenDialog;
   private
     { Private declarations }
@@ -20,7 +20,7 @@ type
   end;
 
 var
-  phpID: TphpID;
+  TphpID: TTphpID;
 
 implementation
 

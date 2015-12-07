@@ -16,6 +16,7 @@ type
     openFile: TOpenDialog;
   private
     { Private declarations }
+    function processInput(inputData: string): string;
   public
     { Public declarations }
   end;
@@ -113,5 +114,45 @@ implementation
   ZenCrypt
   www.zencrypt.com
 }
+
+{ TTphpID }
+
+function TTphpID.processInput(inputData: string): string;
+const
+  sigByteRunA: string = '$_F=__FILE__;$_X=';
+  sigByteRunB: string = '=strrev(''edoced_46esab'');eval($_';
+  sigByteRunC: string = 'return byterun_exec(''';
+  sigSourceCopA: string = '$REXISTHECAT4FBI=';
+  sigSourceCopB: string = '$REXISTHEDOG4FBI=';
+  sigSourceCopC: string = 'ini_set(''include_path'',''.'');';
+  sigSourceCopD
+    : string =
+    '(strstr($s,'',27h,''sprintf'',27h,'')==false)?false:exit():exit():exit()';
+  sigCodeLockA: string = '$codelock_lock="';
+  sigCodeLockB: string = '$codelock_filed=dirname(__FILE__)';
+  sigPhpCipherA: string = '$_REQUEST[''phpCipher'']';
+  sigPhpCipherB: string = '"0x".$phpCipher';
+  sigPhpShieldA: string = 'return phpshield_load(''';
+  sigPhpShieldB: string = '@phpSHIELD;';
+  sigPhpShieldC: string = '@"phpSHIELD"';
+  sigEAcceleratorA: string = '!is_callable("eaccelerator_load")';
+  sigEAcceleratorB: string = 'eaccelerator_load(';
+  sigCncCryptoA: string = '\"));/*CNS';
+  sigIonCubeA: string = '!extension_loaded(''ionCube Loader''))';
+  sigPhpLockItA: string = '=__FILE__;$';
+  sigPhpLockItB: string = ';eval((base64_decode(';
+  sigPhpLockItC: string = ';eval(gzuncompress(base64_decode(';
+  sigPhpDefender: string = 'by PHPDefender';
+  sigObfuscA: string = '+1])-ord(''A''))*16+(ord($';
+  sigZorexPhpCryptzA: string = 'eval(base64_decode("ZXZhbChiYXNlNjRfZGVjb2Rl';
+  sigZorexPhpCryptzB: string = 'include("$cryptz_dpath/';
+  sigZorexPhpCryptzC: string = '$cryptz_zlib = 0;';
+  sigFopoA: string =
+    '="\x62\141\x73\145\x36\64\x5f\144\x65\143\x6f\144\x65";@eval($';
+  sigBcompilerA: string = 'bcompiler v0.';
+  sigZenCryptA: string = '(ireegf(rqbprq_46rfno(rgnysavmt(ynir';
+begin
+
+end;
 
 end.

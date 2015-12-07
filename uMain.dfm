@@ -1,7 +1,7 @@
 object TphpID: TTphpID
   Left = 0
   Top = 0
-  Caption = 'phpID'
+  Caption = 'phpID v0.2 - CryptXor'
   ClientHeight = 410
   ClientWidth = 794
   Color = clBtnFace
@@ -25,7 +25,7 @@ object TphpID: TTphpID
     Font.Style = []
     HideScrollBars = False
     Lines.Strings = (
-      'Manual Input')
+      'Paste the code you want to process here.')
     ParentFont = False
     ScrollBars = ssBoth
     TabOrder = 0
@@ -37,6 +37,7 @@ object TphpID: TTphpID
     Width = 377
     Height = 25
     Caption = 'Import File'
+    Enabled = False
     TabOrder = 1
   end
   object tbResult: TEdit

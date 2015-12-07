@@ -54,6 +54,7 @@ object TphpID: TTphpID
     Height = 25
     Caption = 'Process Manual Input'
     TabOrder = 3
+    OnClick = btnProcessManualClick
   end
   object openFile: TOpenDialog
     Left = 688

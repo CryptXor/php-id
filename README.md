@@ -1,5 +1,8 @@
-# php-id
+﻿# php-id
 A tool to help identify the protection of a PHP file
+Please do take note that this is a very simple, yet messy way of going about the detection process. I might change everything if there is actual interest in the project, to be much more efficient and bolster many additional features.
+However, for now, it is quick and dirty!
+
 
 # Attribution-NonCommercial 4.0 International
 
